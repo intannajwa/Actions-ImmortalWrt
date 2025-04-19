@@ -26,9 +26,10 @@ on:
         type: boolean
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-24.10
-  BRANCH_NAME: ImmortalWrt
+  # REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPI_URL: https://github.com/ofmodemsandmen/ROOterSource2305
+  REPO_BRANCH: main
+  BRANCH_NAME: ROOterSource2305
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
